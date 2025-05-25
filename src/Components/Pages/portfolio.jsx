@@ -67,8 +67,8 @@ const Portfolio = () => {
   const activeItems = tabs.find((tab) => tab.name === activeTab)?.items || [];
 
   return (
-    <div className="flex flex-col pt-[50px] text-center text-white justify-center items-center font-Optima">
-      <h1 className="tracking-widest text-[#C4CFDE] font-bold text-[50px] leading-[60px] uppercase">
+    <div className="flex flex-col pt-[50px] text-center text-navyBlue justify-center items-center font-Optima">
+      <h1 className="tracking-widest text-navyBlue font-bold text-[50px] leading-[60px] uppercase">
         Recent Portfolio
       </h1>
       <h1 className="text-black text-5 leading-[60px]">
@@ -85,7 +85,7 @@ const Portfolio = () => {
               className={`flex items-center gap-2 px-[20px] py-[14px] text-[18px] font-montserrat font-bold transition-all duration-200 ${
                 activeTab === tab.name
                   ? "border-b-[5px] border-blue-400 text-blue-500"
-                  : "text-[#929DAF] hover:text-blue-500"
+                  : "text-navyBlue hover:text-blue-500"
               }`}
             >
               <img src={tab.icon} alt={tab.name} className="w-5 h-5" />

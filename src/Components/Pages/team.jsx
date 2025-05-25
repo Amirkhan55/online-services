@@ -48,13 +48,13 @@ const Team = () => {
     <div className="flex justify-center items-center w-full bg-white py-10 px-4">
       <div className="max-w-[1200px] w-full text-center">
         <div className="mb-10">
-          <span className="uppercase text-blue-500 font-semibold tracking-wide">
+          <span className="uppercase text-navyBlue font-semibold tracking-wide">
             Meet the leaders
           </span>
-          <h1 className="text-4xl font-bold mt-2 text-[#102953] ">
+          <h1 className="text-4xl font-bold mt-2 text-navyBlue ">
             The Best Team
           </h1>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-4 text-navyBlue max-w-2xl mx-auto">
             With our individualities, we share a common interest in the digital
             world and join hands to build a better virtual world of yours where
             you can stand out. Let us introduce the creative minds behind the

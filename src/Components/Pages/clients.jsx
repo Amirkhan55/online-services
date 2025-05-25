@@ -41,7 +41,7 @@ const Clients = () => {
 
   return (
     <div className="w-full px-4 flex flex-col items-center py-10">
-      <h1 className="text-[36px] md:text-[50px] text-[#102953] tracking-widest font-bold leading-[60px] text-center mb-8">
+      <h1 className="text-[36px] md:text-[50px] text-navyBlue tracking-widest font-bold leading-[60px] text-center mb-8">
         Our Clients
       </h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center max-w-[1200px] w-full">

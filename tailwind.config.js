@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        text: "2px 2px 4px rgba(0, 0, 0, 0.3)",
+      },
       fontFamily: {
         copperplate: ["Copperplate", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
@@ -19,6 +22,7 @@ module.exports = {
         josefinSans: ["Josefin Sans", "sans-serif"],
         cambria: ["Cambria", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        googleProductSans: ["GoogleProductSans, sans-serif"],
       },
     },
   },

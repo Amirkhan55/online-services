@@ -18,10 +18,10 @@ const Card = ({ icon, title, description }) => {
 
       {/* Text content */}
       <div className="p-6 text-center">
-        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
+        <h3 className="text-xl font-semibold text-navyBlue group-hover:text-blue-600 transition-colors duration-300">
           {title}
         </h3>
-        <p className="mt-2 text-sm text-gray-600">{description}</p>
+        <p className="mt-2 text-sm text-navyBlue">{description}</p>
 
         {/* Arrow on hover */}
         {/* <div className="mt-4 text-blue-500 text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">

@@ -6,11 +6,13 @@ const TestimonialCard = ({ image, title, rating, description }) => {
       <div className="flex items-center gap-4 mb-2">
         <img src={image} alt={title} className="w-20 h-20 object-cover" />
         <div>
-          <span className="block font-semibold text-lg">{title}</span>
+          <span className="block font-semibold text-lg text-navyBlue">
+            {title}
+          </span>
           <p className="text-yellow-500 font-bold">⭐⭐⭐⭐⭐ {rating}</p>
         </div>
       </div>
-      <p className="text-gray-600">{description}</p>
+      <p className="text-navyBlue">{description}</p>
     </div>
   );
 };

@@ -52,7 +52,7 @@ const ThingsWeAreGoodAt = () => {
       case "Digital Strategy":
         return (
           <div className="flex flex-col">
-            <strong className="text-[45px] font-montserrat">
+            <strong className="text-[45px] text-navyBlue font-montserrat">
               Digital Strategy
             </strong>
             <div className="flex justify-center items-center max-w-[100%]">
@@ -63,7 +63,7 @@ const ThingsWeAreGoodAt = () => {
                 </button>
               </div>
               <div className="flex w-1/2">
-                <p className="text-[#777777] font-montserrat text-[16px]">
+                <p className="text-navyBlue font-montserrat text-[16px]">
                   We provide our phenomenal services at a global level. We
                   foster brands so that they can evolve into something massive.
                   We strive to make marketing easy and convenient for you that
@@ -89,7 +89,7 @@ const ThingsWeAreGoodAt = () => {
                 </button>
               </div>
               <div className="flex justify-center w-1/2">
-                <p className="text-[#777777] font-montserrat text-[16px]">
+                <p className="text-navyBlue font-montserrat text-[16px]">
                   We establish brands that are fascinating and wholly desirable.
                   Branding is about establishing the company’s personality and
                   experience that reverberates with customers and ensures their
@@ -118,7 +118,7 @@ const ThingsWeAreGoodAt = () => {
                 </button>
               </div>
               <div className="flex w-1/2">
-                <p className="text-[#777777] font-montserrat text-[16px]">
+                <p className="text-navyBlue font-montserrat text-[16px]">
                   We are here to develop websites and website content for mobile
                   phones and tablets, desktop screens, and laptops. Our
                   expertise is all over the place, which is an exciting feature
@@ -142,7 +142,7 @@ const ThingsWeAreGoodAt = () => {
                 </button>
               </div>
               <div className="flex w-1/2">
-                <p className="text-[#777777] font-montserrat text-[16px]">
+                <p className="text-navyBlue font-montserrat text-[16px]">
                   Now that technology has advanced to a shocking level, and we
                   try exploiting it as much as possible. So we create mobile
                   apps with effective user interfaces that provide an intuitive
@@ -167,7 +167,7 @@ const ThingsWeAreGoodAt = () => {
                 </button>
               </div>
               <div className="flex w-1/2">
-                <p className="text-[#777777] font-montserrat text-[16px]">
+                <p className="text-navyBlue font-montserrat text-[16px]">
                   Social media is everything in today’s time. As we speak,
                   there’s an innovation every second. Social media is a platform
                   that helps brands and businesses to go immensely. Through
@@ -193,7 +193,7 @@ const ThingsWeAreGoodAt = () => {
                 </button>
               </div>
               <div className="flex w-1/2">
-                <p className="text-[#777777] font-montserrat text-[16px]">
+                <p className="text-navyBlue font-montserrat text-[16px]">
                   Our only goal is to increase the amount of traffic on your
                   website through organic search results. We assist you in
                   making the right decisions and tell you what works and what
@@ -217,7 +217,7 @@ const ThingsWeAreGoodAt = () => {
                 </button>
               </div>
               <div className="flex w-1/2">
-                <p className="text-[#777777] font-montserrat text-[16px]">
+                <p className="text-navyBlue font-montserrat text-[16px]">
                   Words listen beautifully cast a beautiful spell on the reader.
                   When it comes to the promotion of a company through words, ut
                   becomes even more enchanting. Every word on the website is
@@ -236,8 +236,10 @@ const ThingsWeAreGoodAt = () => {
   };
 
   return (
-    <div className="flex justify-center items-center flex-col w-full max-w-[1300px] mx-auto p-4 shadow-[0px_5px_15px_rgba(0,0,0,0.35)]">
-      <h1 className="text-[72px] py-5 mb-6">Things We Are Good at</h1>
+    <div className="flex justify-center items-center flex-col mt-4 w-full max-w-[1300px] mx-auto p-4 shadow-[0px_5px_15px_rgba(0,0,0,0.35)]">
+      <h1 className="text-[72px] text-navyBlue font-montserrat py-5 mb-6">
+        Things We Are Good at
+      </h1>
 
       {/* Mobile Dropdown */}
       <select
@@ -278,8 +280,8 @@ const ThingsWeAreGoodAt = () => {
             onClick={() => setActiveTab(tab.name)}
             className={`flex items-center gap-2 py-[14px] px-[20px] font-medium transition-all ${
               activeTab === tab.name
-                ? "border-blue-500 bg-[#F8F8F8] text-[#666666]"
-                : "border-transparent bg-[#125D93] text-white hover:text-blue-500"
+                ? "border-blue-500 bg-[#F8F8F8] text-[#1F2F6F]"
+                : "border-transparent bg-[#1F2F2C] text-white hover:text-blue-500"
             }`}
           >
             <img src={tab.icon} alt={tab.name} className="text w-5 h-5" />

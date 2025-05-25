@@ -8,6 +8,7 @@ import Team from "./team";
 import Clients from "./clients";
 import Testimonial from "./testimonial";
 import GetInTouch from "./getInTouch";
+import Footer_div from "../Footer/footer";
 const Home = () => {
   return (
     <div className="font-Optima h-[100vh]">
@@ -22,15 +23,12 @@ const Home = () => {
       <section id="things_we_are">
         <ThingsWeAre />
       </section>
-      {/* <section id="feature">
-        <Feature />
-      </section> */}
+
       <section id="portfolio">
         <Portfolio />
       </section>
-      <section id="resume">
+      <section id="team">
         <Team />
-        {/* <Resume /> */}
       </section>
       <section id="clients">
         <Clients />
@@ -41,12 +39,8 @@ const Home = () => {
       <section id="getInTouch">
         <GetInTouch />
       </section>
-      <section id="blog">
-        <h1>Blog Section</h1>
-      </section>
-      <section id="contact">
-        <h1>Contact Section</h1>
-      </section>
+
+      <Footer_div />
     </div>
   );
 };
